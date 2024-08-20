@@ -39,3 +39,36 @@ header {
 #mobile__menu {
   display: none;
 }
+
+@media screen and (max-width: 1170px) {
+  #nav__list,
+  #navbar .btn-default {
+    display: none;
+  }
+
+  #mobile__btn {
+    display: block;
+    border: none;
+    background-color: transparent;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+
+  #mobile__menu.active {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #mobile__nav__list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin: 12px 0px;
+  }
+
+  #mobile__nav__list .nav__list__item {
+    list-style: none;
+    text-align: center;
+  }
+}
