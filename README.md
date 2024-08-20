@@ -4,7 +4,7 @@ Este projeto é uma **landing page responsiva e animada** para um restaurante, d
 
 ## 📸 Demonstração
 
-*Projeto ainda em desenvolvimento.*
+_Projeto ainda em desenvolvimento._
 
 ## 🚀 Funcionalidades
 
@@ -24,23 +24,24 @@ Este projeto é uma **landing page responsiva e animada** para um restaurante, d
 
 ```
 ├── index.html
-├── styles
-│   └── style.css
-├── scripts
-│   └── script.js
-└── images
-    └── logo.png
+└── src
+    ├── styles
+    │   ├── header.css
+    │   └── style.css
+    └── scripts
+        └── script.js
 ```
-
 
 ## 🖥️ Como Rodar o Projeto
 
 1. Faça o download ou clone este repositório.
+
 ```
 
 git clone https://github.com/seu-usuario/landing-page-restaurante.git
 
 ```
+
 2. Abra o arquivo **'index.html'** em seu navegador.
 
 <!--
