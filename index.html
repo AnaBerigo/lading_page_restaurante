@@ -4,8 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurante Landing Page</title>
+    <link rel="stylesheet" href="src/styles/style.css">
+    <!-- ICONES -->
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/all.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-light.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 <body>
-    
+    <header>
+        <nav id="navbar">
+            <i class="fa-sharp fa-light fa-burger-fries" id="nav__logo">food</i>
+
+            <ul id="nav__list">
+                <li class="nav__list__item active">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav__list__item">
+                    <a href="#menu">Cardápio</a>
+                </li>
+                <li class="nav__list__item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                Peça aqui
+            </button>
+
+            <button id="mobile__btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+        <div id="mobile__menu">
+            <ul id="mobile__nav__list">
+                <li class="nav__list__item">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav__list__item">
+                    <a href="#menu">Cardápio</a>
+                </li>
+                <li class="nav__list__item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                Peça aqui
+            </button>
+        </div>
+    </header>
 </body>
 </html>

@@ -1,0 +1,41 @@
+header {
+  width: 100%;
+  padding: 28px 8%;
+}
+
+#navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#nav__logo {
+  font-size: 24px;
+  color: #e9a209;
+}
+
+#nav__list {
+  display: flex;
+  list-style: none;
+  gap: 48px;
+}
+
+.nav__list__item a {
+  text-decoration: none;
+  color: #1d1d1dac;
+  font-weight: 600;
+}
+
+.nav__list__item.active a {
+  color: #1d1d1d;
+  border-bottom: 3px solid #ffe100;
+}
+
+#mobile__btn {
+  display: none;
+}
+
+#mobile__menu {
+  display: none;
+}
